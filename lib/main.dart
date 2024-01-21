@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:json_formater_fl/file_directory/example/example.dart';
+import 'package:json_formater_fl/shared_references/example/example_widget.dart';
 //import 'package:json_formater_fl/http_request/domain/widgets/example/example.dart';
 //import 'package:json_formater_fl/json_formatter/json_formater.dart';
 
@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         body: ExampleWidget(),
+        //body: ExampleWidget(),
         //body: ExampleHttpRequest(),
         //body: Example(),
       )
